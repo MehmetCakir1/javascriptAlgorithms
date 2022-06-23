@@ -1,1 +1,1 @@
-# javascriptProblems
+# javascriptAlgorithms
