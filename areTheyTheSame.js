@@ -23,8 +23,11 @@
 // b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 // comp(a,b) returns false because in b 36100 is not the square of any number of a.
 
+//solution 1
+function comp(array1, array2){
+    return array1 && array2 ? array1.map((item)=>item**2).sort().join("")==array2.sort().join("") : false  }
 
-
+// solution 2
 function comp(array1, array2){
     let count=0;
     if(array1==null || array2==null){
